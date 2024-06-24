@@ -1,13 +1,29 @@
 .jumbotron {
     padding-top: 6rem;
 }
+
 * {
     font-family: 'Poppins';
 }
-a.team{
+
+a.team {
     text-decoration: none;
     color: #560bad;
 }
+
 section {
     padding-top: 5rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.card {
+    margin-bottom: 1rem;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
