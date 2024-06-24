@@ -1,0 +1,10 @@
+.jumbotron {
+    padding-top: 6rem;
+}
+* {
+    font-family: 'Poppins';
+}
+a.team{
+    text-decoration: none;
+    color: #560bad;
+}
