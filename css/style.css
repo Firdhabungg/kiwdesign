@@ -27,3 +27,10 @@ section {
 .card:hover {
     transform: scale(1.1);
 }
+#conUs{
+    transition: .3s;
+}
+#conUs:hover{
+    background-color: #560bad;
+    color: white;
+}
