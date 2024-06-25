@@ -26,10 +26,14 @@ section {
 .card:hover {
     transform: scale(1.1);
 }
-#conUs{
+#conUs, #order, #noTelp, #email{
     transition: .3s;
 }
 #conUs:hover{
     background-color: #560bad;
     color: white;
+}
+#order:hover,#noTelp:hover,#email:hover{
+    color: white;
+    font-weight: 700;
 }
