@@ -1,9 +1,9 @@
 .jumbotron {
-    padding-top: 6rem;
+    padding-top: 7rem;
 }
 
 * {
-    font-family: 'Poppins';
+    font-family: 'Poppins' !important;
 }
 
 span {
@@ -41,6 +41,7 @@ section {
     border-radius: 5px;
     color: white;
     box-shadow: 3px 5px 10px;
+    text-decoration: none;
 }
 
 #order:hover,
@@ -48,11 +49,14 @@ section {
 #email:hover {
     color: white;
     font-weight: 700;
+    text-decoration: none;
 }
+
 .logo {
     transform: scale(0)rotate();
     transition: .3s;
 }
+
 .logo:hover {
     transform: scale(1.1) rotate(360deg);
 }
