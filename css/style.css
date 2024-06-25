@@ -14,11 +14,10 @@ a.team {
 section {
     padding-top: 5rem;
 }
-
-.nav-link:hover {
-    text-decoration: underline;
+.nav-item:hover{
+    font-weight: 600;
+    text-shadow: 0 2px 5px white ;
 }
-
 .card {
     margin-bottom: 1rem;
     transition: .3s;
