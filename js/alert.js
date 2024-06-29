@@ -1,5 +1,5 @@
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbw0zKP8JxWB7PPYS2VM0OGKhCh2NKQwd18vE910hLxC6Ehfykwu4e8g2ai91EaNi2I/exec'
-        const form = document.forms['bung-contact-form']
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzHSxCngjiiwfzzsOE-C_xC4gFrS0azH2HPN-Q404wi-oL3n7rBKo7g7eYyk0v2SPtlFQ/exec';
+        const form = document.forms['kiwdesign-Contact-Form']
         const btnKirim = document.querySelector('.btn-kirim');
         const btnLoading = document.querySelector('.btn-loading');
         const myAlert = document.querySelector('.my-alert');
@@ -17,9 +17,10 @@
                 btnKirim.classList.toggle('d-none');
                 // tampilkan alert
                 myAlert.classList.toggle('d-none');
-                // reset form
+                // reset form hilangkan isinya setelah submit & success
                 form.reset();
                 console.log('Success!', response)
             })
             .catch(error => console.error('Error!', error.message))
         })
+        
