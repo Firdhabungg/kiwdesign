@@ -53,10 +53,10 @@ section {
 }
 
 .logo {
-    transform: scale();
+    transform: scale()!important;
     transition: .5s;
 }
 
 .logo:hover {
-    transform: scale(1.2) rotate(720deg);
+    transform: scale(1.2) rotate(360deg) !important;
 }
